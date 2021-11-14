@@ -1,0 +1,159 @@
+@font-face{
+  font-family: New York Extra large;
+  src: url(../.photos/sFontsFree-Net-NewYorkExtraLargeMedium.ttf);
+}
+
+@font-face {
+  font-family: SF Mono;
+  src: url(../.photos/FontsFree-Net-SFMono-Regular.ttf);
+}
+
+@font-face {
+  font-family: SF Pro Display;
+  src: url(../.photos/FontsFree-Net-SFProDisplay-Regular.ttf);
+}
+
+@font-face{
+  font-family: SF Pro Text;
+  src: url(../.photos/FontsFree-Net-SFProText-Regular.ttf);
+}
+
+#A{
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+font-family: New York Extra Large;
+font-style: normal;
+font-weight: bold;
+font-size: 54px;
+line-height: 100%;
+color: #000000;
+}
+
+
+#B{
+ font-family: SF Mono;
+font-style: Regular;
+font-size: 20px;
+Vertical-align: Top;
+}
+
+#C{
+  padding-top: 42px;
+}
+ 
+#D{
+  padding-left: 13%;
+  padding-top: 2.2%;
+}
+
+#E{
+  padding-left: 13.5%;
+  padding-top:  1%;
+}
+
+#F{
+  padding-left: 0.5%;
+  padding-top:  1%;
+}
+
+#G{
+  padding-left: 8.5%;
+  padding-top:  1%;
+}
+
+
+#H{
+  padding-left: 13%;
+  padding-right: 15%;
+  padding-top: 3%;
+  font-family: New York Medium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 170%;
+  color: #000000;
+}
+
+#I{
+  padding-left: 13%;
+  padding-top: 3%;
+  font-family: "SF Pro Display", sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 160%;
+color: #000000;
+}
+
+#J{
+  padding-left: 13%;
+  padding-right: 15%;
+font-family: New York Medium;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 170%;
+color: #000000;
+}
+
+#K{
+  padding-top: 1%;
+  padding-left: 9%;
+  padding-right: 9%;
+}
+
+#L{
+  padding-left: 23%;
+  padding-right: 25%;
+font-family: SF Pro Text;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: #000000;
+}
+
+#M{
+  padding-top: 3%;
+  padding-left: 13%;
+  padding-right: 15%;
+font-family: New York Medium;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 170%;
+color: #000000;
+}
+
+#N{
+  padding-top: 3%;
+  padding-left: 13%;
+  padding-right: 15%;
+font-family: New York Medium;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 170%;
+color: #000000;
+}
+
+#O{
+  padding-left: 16%;
+  padding-right: 15%;
+  font-family: New York Medium;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 170%;
+color: #000000;
+}
+
+#Q{
+  padding-top: 3%;
+}
+
+#R{
+  padding-right: 50%;
+}
