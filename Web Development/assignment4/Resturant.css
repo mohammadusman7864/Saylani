@@ -1,0 +1,374 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*===================
+header design navbar
+====================*/
+
+.header{
+    background-image: url(./Photos/header.jpg);
+    background-size: 100% auto;
+    width: 100%;
+    height: 100vh;
+    background-repeat: none;
+}
+
+.opacitycolor{
+    background-color: rgba(0,0,0,0.1);
+    border: px solid red;
+    height: 100%;
+}
+
+.navbar{
+    padding: 1%;
+    border: px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.4)) ;
+}
+
+.navbar .logo{
+    border: px solid red;
+    cursor: pointer;
+}
+
+.navbar .logo img{
+    border: px solid green;
+    width: 100px;
+}
+
+.navlink{
+    border: px solid wheat;
+    margin-right: 2vw;
+}
+
+.navlink ul{
+    border: px solid green;
+    display: flex;
+    margin-bottom: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+
+.navlink ul li{
+    border: px solid red;
+    list-style: none;
+}
+
+.navlink ul li a{
+    border: px solid red;
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 7px;
+}
+
+.navlink ul li a:hover{
+    color: #ffd900;
+    text-decoration: underline;
+}
+
+.navlink ul li .active{
+    color: wheat;
+}
+
+.checkbtn{
+    color: #fff;
+    font-size: 25px;
+    float: right;
+    display: none;
+    cursor: pointer;
+}
+
+#check{
+    display: none;
+}
+/*===================
+header Message
+====================*/
+.headerMessage {
+    border: px solid red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ 
+
+.headerMessageCol {
+    border: px solid green;
+    color: #fff;
+}
+
+.headerMessageCol h1 {
+    font-family: Archivo, sans-serif;
+    font-size: 4.3vw;
+    font-style: normal;
+}
+
+.headerMessageCol p {
+    margin: 3vw 0px;
+}
+
+.orderButton1 {
+    background-color: #ff2f1d;
+    color: #fff;
+    border: none;
+    border: 1px solid #db8b4a;
+    width: 200px;
+    height: 35px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+
+.orderButton1:hover {
+    background-color: #52200a;
+    border: 1px solid #db8b4a;
+}
+
+@media (max-width: 700px) {
+    .opacityColor {
+        background-color: rgba(0, 0, 0, .7);
+        border: px solid red;
+        height: 100%;
+    }
+
+    .headerMessageCol {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .headerMessage {
+        border: px solid red;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .headerMessageCol h1 {
+        font-size: 7vw;
+        text-align: center;
+    }
+
+    .headerMessageCol p {
+        text-align: center;
+    }
+
+    .header {
+        background-image: url(../images/3.jpg);
+        background-size: 100% 100%;
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+    }
+}
+
+
+/*===================
+cheif section
+====================*/
+
+
+.ourChef {
+    border: px solid red;
+    background-color: #f6eedf;
+    display: flex;
+    align-items: center;
+    padding: 10vh 0vh 5vh 0vh;
+}
+
+
+.ourChef h1 {
+    border: px solid green;
+    color: #f64b3c;
+    font-family: archivo;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.ourChef p {
+    border: px solid green;
+    color: #f64b3c;
+    text-align: center;
+    width: 80%;
+    margin: 4vh auto 15vh auto;
+
+}
+
+.allChef {
+    border: px solid green;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+}
+
+.eachChef {
+    border: px solid blue;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:5vh;
+}
+
+.eachChef img {
+    border: px solid gray;
+    width: 70%;
+    border-radius: 70%;
+    box-shadow: 0px -4px 28px 2px rgba(0, 0, 0, 0.48);
+}
+
+.eachChef h4 {
+    border: px solid gray;
+    color: #f64b3c;
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+.eachChef p {
+    border: px solid gray;
+    color: #f64b3c;
+    text-align: center;
+    margin: 0px auto;
+}
+
+
+.bestBurger {
+    background-color: #f64b3c;
+    padding: 6vh 0vh;
+}
+
+.childBestBurger {
+    border: px solid red;
+}
+
+.bestBurgerRow {
+    border: px solid red;
+}
+
+.imageCol {
+    border: px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageCol img {
+    width: 80%;
+}
+
+.textCol {
+    border: px solid green;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textCol h1 {
+    border: px solid green;
+    font-family: archivo;
+    font-size: 3.5rem;
+}
+
+.textCol p {
+    border: px solid green;
+    font-size: 30px;
+    line-height: 35px;
+    margin: 6vh 0vh;
+}
+
+.textCol button {
+    transition: 0.5s;
+    width: 40%;
+    height: 45px;
+}
+
+.textCol button:hover {
+    color: #fff;
+    background-color: #bf4902;
+}
+
+.orderButton2 {
+    color: #ff2f1d;
+    background-color: #fff;
+    border: none;
+    border: 1px solid #db8b4a;
+    width: 200px;
+    height: 35px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+
+.orderButton2:hover {
+    background-color: #52200a;
+    border: 1px solid #db8b4a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================
+header background-color
+=======================*/
+
+
