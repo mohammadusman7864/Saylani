@@ -17,7 +17,7 @@ header design navbar
 
 .opacitycolor{
     background-color: rgba(0,0,0,0.1);
-    border: px solid red;
+    border: 0px solid red;
     height: 100%;
 }
 
@@ -27,8 +27,7 @@ header design navbar
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,0.4)) ;
+    background: rgba(0,0,0,0.5);
 }
 
 .navbar .logo{
@@ -38,7 +37,7 @@ header design navbar
 
 .navbar .logo img{
     border: px solid green;
-    width: 100px;
+    width: 50px;
 }
 
 .navlink{
@@ -85,9 +84,6 @@ header design navbar
     cursor: pointer;
 }
 
-#check{
-    display: none;
-}
 /*===================
 header Message
 ====================*/
@@ -245,6 +241,10 @@ cheif section
 }
 
 
+/*===================
+burger section
+====================*/
+
 .bestBurger {
     background-color: #f64b3c;
     padding: 6vh 0vh;
@@ -263,6 +263,7 @@ cheif section
     display: flex;
     align-items: center;
     justify-content: center;
+    clip-path: circle();
 }
 
 .imageCol img {
@@ -322,6 +323,23 @@ cheif section
 
 
 
+/*===================
+burger section
+====================*/
+
+.orderButton3 {
+    color: #ff2f1d;
+    background-color: #fff;
+    border: none;
+    border: 1px solid #db8b4a;
+    width: 200px;
+    height: 35px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
 
 
 
@@ -366,9 +384,5 @@ cheif section
 
 
 
-
-/*======================
-header background-color
-=======================*/
 
 
