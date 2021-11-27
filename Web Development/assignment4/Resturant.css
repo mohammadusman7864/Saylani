@@ -342,7 +342,91 @@ burger section
 }
 
 
+/*===================
+    Statistics
+====================*/
 
+
+.Statistics {
+    border: px solid red;
+    background-color: #f64b3c;
+    display: flex;
+    align-items: center;
+    padding: 10vh 0vh;
+}
+
+.childStatistics {
+    border: px solid orange;
+}
+
+.childStatistics>h1 {
+    border: px solid green;
+    color: #fff;
+    font-family: archivo;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.childStatistics>p {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 5vh auto;
+    width: 80%;
+
+}
+
+.colAlign {
+    border: px solid green;
+    display: flex;
+    justify-content: center;
+}
+
+.allStats {
+    border: px solid green;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    user-select: none;
+}
+
+.eachStats {
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+
+.eachStats h1 {
+    font-size: 50px;
+    margin: 0px;
+}
+
+.eachStats h2 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+@media (min-width:768px) {
+    .eachStats {
+        height: 160px;
+    }
+}
+
+@media (min-width:992px) {
+    .eachStats {
+        height: 180px;
+    }
+}
 
 
 
