@@ -32,4 +32,17 @@ else{
 }
 */
 
+var a=prompt("first number");
+var numberFlag = a % 5 == 0 
+var Flag = a % 7== 0
+ if (numberFlag) {
+console.log("Number is five");
+}
+else{
+if(Flag)
+console.log("Number is seven");
+ else{
+    console.log("no divide 7 and 5");
+ }
+}
 

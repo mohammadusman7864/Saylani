@@ -1,0 +1,145 @@
+@font-face {
+      font-family:"Poppins-Medium";
+      src: url(./poppins-medium/Poppins-Medium.ttf);
+}
+
+/*===================
+    box
+====================*/
+#header{
+      padding-left: 55px;
+      padding-top: 3px;
+}
+
+@media (max-width: 300px) {
+      #header{
+            padding-left: 55px;
+            padding-top: 3px;
+      }
+}
+
+/*===================
+    pic
+====================*/
+    .para{
+            font-weight: bold;
+           padding-left: 15px;
+           padding-top: 12px;
+      }
+      
+#a{
+      padding-top: 39px;
+      width: 201px;
+      height: 45;
+      opacity: 1;
+}
+
+
+#b{
+      padding-top: 39px;
+      width: 227px;
+      height: 42;
+      opacity: 1;
+}
+
+#c{
+      padding-top: 39px;
+        height: 100px;
+      width: 142px;
+      opacity: 1;
+}
+
+#d{
+      padding-top: 47px;
+        height: 80px;
+      width: 252px;
+     
+}
+
+@media (max-width: 400px) {
+      .para{
+            font-weight: bold;
+           padding-left: 15px;
+           padding-top: 12px;
+      }
+           
+#a{
+      padding-top: 39px;
+      width: 201px;
+      height: 45;
+      opacity: 1;
+}
+
+
+#b{
+      padding-top: 39px;
+      width: 227px;
+      height: 42;
+      opacity: 1;
+}
+
+#c{
+      padding-top: 39px;
+        height: 100px;
+      width: 142px;
+      opacity: 1;
+}
+
+#d{
+      padding-top: 47px;
+        height: 80px;
+      width: 252px;
+     
+}
+}
+
+
+
+
+.text-center{
+      text-align: center;
+      font-size: 54px;
+      font-family: "Poppins-Medium", sans-serif ;
+      width: 820px;
+      height: 53px;
+      padding-left: 320px;
+      padding-top: 15px;
+      font-weight: bold;
+}
+
+.application {
+font-size: 22px;
+font-family: "Poppins-Regular", serif;
+height: 22px;
+width: 621px;
+color: #8989A2;
+padding-top: 80px;
+padding-left: 340px;
+text-align: center;
+
+}
+
+@media (max-width: 900px) {
+        .text-center{
+                   text-align: center;
+                   font-size: 54px;
+                   font-family: "Poppins-Medium", sans-serif ;
+                   width: 820px;
+                   height: 53px;
+                    padding-left: 220px;
+                   padding-top: 255px;
+                   font-weight: bold;
+            }
+
+            .application {
+                  font-size: 22px;
+                  font-family: "Poppins-Regular", serif;
+                  height: 22px;
+                  width: 621px;
+                  color: #8989A2;
+                  padding-top: 80px;
+                  padding-left: 440px;
+                  text-align: center;
+                  }
+                  
+}
