@@ -1,3 +1,7 @@
+
+/*================
+   question 1
+=================*/
 function maxNumber() {
     var dom = document;
     var a = parseInt(dom.getElementById("A").value)
@@ -22,53 +26,114 @@ function maxNumber() {
 
 
 
-
-
-
-/*
-question 1
-var a=prompt("first number");
-var b=prompt("second number");
-if(a>b && a!==b)  {
-    console.log("Maximum Number",a );
-}
-else{
-    if(b>a && a!==b)
-    console.log("Maximum Number",b );
-else{
-    console.log("Maximum does not Number" );
-}
-      }
-*/
-
-/*
-question2
-var a=prompt("first number");
-var b=prompt("second number");
-var c=prompt("second number");
-if(a>b && a>c){
-    console.log("Maximum Number",a );
-}
-else{
-    if(b>a && b>c)
-    console.log("Maximum Number",b );
-    else{
-        console.log("Maximum Number",c );
+/*================
+   question 2
+=================*/
+function maxNum() {
+    var dom = document; 
+    var a = parseInt(dom.getElementById("num1").value);
+    var b = parseInt(dom.getElementById("num2").value);
+    var c = parseInt(dom.getElementById("num3").value);
+    var result = dom.getElementById("good");
+    if (a > b && a > c) {
+        console.log("A greater", a);
+        result.innerHTML = a
     }
+    else {
+        if (b > a && b > c) {
+            console.log("B greater", b);
+            result.innerHTML = b
+        }
+        else {
+            console.log("C greater",c);
+            result.innerHTML = c
+        }
+    }
+    console.log("dom", dom);
 }
-*/
-/*
-var a=prompt("first number");
-var numberFlag = a % 5 == 0;
-var Flag = a % 7== 0;
- if (numberFlag) {
-console.log("Number is five");
+
+
+
+/*================
+   question 3
+=================*/
+function evenNumber() {
+var dom= document; 
+    var a = parseInt(dom.getElementById("even").value);
+    var newnumber = a % 2 == 0
+ var result = dom.getElementById("oddnumber");
+if (newnumber) {
+console.log("Number is even");
 }
 else{
-if(Flag)
-console.log("Number is seven");
- else{
-    console.log("no divide 7 and 5");
- }
-}*/
+    console.log("Number is odd");
+}
+console.log("dom", dom);
+}
+ 
+
+/*================
+   question 4
+=================*/
+function divideNumber() {
+    var dom= document; 
+    var a = parseInt(dom.getElementById("evennum").value);
+    var result = dom.getElementById("hnumber");
+  if (a%5==0) {
+    console.log("Number is Divide 5"); 
+    result.innerHTML = a
+  } 
+  else 
+  if (a % 7 == 0) {
+    console.log("Number is Divide 7")
+    result.innerHTML = a
+  }
+  else 
+      {
+        console.log("Number is not Divide 7 and 5");
+        result.innerHTML = a
+     }
+     console.log("dom", dom);
+    }
+  
+ 
+/*================
+   question 5
+=================*/
+function lengthNum() {
+    var dom= document; 
+    var a = parseInt(dom.getElementById("positive").value);
+    var result = dom.getElementById("negative");
+  if (a<0) {
+    console.log("Negative Number"); 
+    result.innerHTML = a
+  } 
+  else 
+  if (a == 0) {
+    console.log("Zero Number")
+    result.innerHTML = a
+  }
+  else 
+      {
+        console.log("Positive Number");
+        result.innerHTML = a
+     }
+     console.log("dom", dom);
+    }
+  
+     
+/*================
+   question 6
+=================*/
+function days() {
+    var dom= document; 
+    var a = parseInt(dom.getElementById("week").value);
+    var b= a*7 
+    var result = dom.getElementById("week3");
+    console.log("Week of Days",b);
+    result.innerHTML = b
+    
+}
+
+
 
