@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*===================
+  Backgound-Image
+====================*/
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image:  url(./pic/pexels-nataliya-vaitkevich-7852548.jpg);
+    background-size: 100% auto;
+    width: 100%;
+    height: 100vh;
+    background-repeat: none;
+    background-blend-mode: soft-light;
+}  
+
+/*===================
+header design navbar
+====================*/
+
+.opacitycolor{
+    background-color: rgba(0,0,0,0.1);
+    border: 0px solid red;
+    height: 100%;
+}
+
+.navbar{
+    padding: 1%;
+    border: px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0,0,0,0.5);
+}
+
+.navbar .logo{
+    border: px solid red;
+    cursor: pointer;
+}
+
+.navbar .logo img{
+    border: px solid green;
+    width: 50px;
+}
+
+.navlink{
+    border: px solid wheat;
+    margin-right: 2vw;
+}
+
+.navlink ul{
+    border: px solid green;
+    display: flex;
+    margin-bottom: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+
+.navlink ul li{
+    border: px solid red;
+    list-style: none;
+}
+
+.navlink ul li a{
+    border: px solid red;
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 7px;
+}
+
+.navlink ul li a:hover{
+    color: #ffd900;
+    text-decoration: underline;
+}
+
+.navlink ul li .active{
+    color: wheat;
+}
+
+.checkbtn{
+    color: #fff;
+    font-size: 25px;
+    float: right;
+    display: none;
+    cursor: pointer;
+}
+
+/*===================
+       Menu
+====================*/
+#menu{
+    font-family: 'Edwardian Script ITC';
+    font-size: 100px;
+    font-weight: bold;
+    font-style: italic;
+    color: deeppink;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/*===================
+      Cheif
+====================*/
+.cheif{
+    font-family: 'Edwardian Script ITC';
+    font-size: 40px;
+    font-weight: bold;
+    color: royalblue;
+    text-align: center;
+}
+
+.cheifs{
+    font-family: 'Edwardian Script ITC';
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(225, 65, 158);
+    text-align: center;
+}
+
+/*===================
+      image
+====================*/
+.image1{
+    width: 80%;
+    height: 50%;
+    margin-top: 55px;
+    transition-property: width,height;
+    transition-duration: 0.5s,1s;
+    transition-timing-function: linear;
+}
+.image1:hover{
+         width: 100%;
+         height: 70%;
+}
+
+.image2{
+    width: 80%;
+    height: 50%;
+    transition-property: width,height;
+    transition-duration: 0.5s,1s;
+    transition-timing-function: linear;
+}
+.image2:hover{
+         width: 100%;
+         height: 70%;
+}
+ 
