@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*===================
+  Backgound-Image
+====================*/
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image:  url(./pic/brooke-lark-08bOYnH_r_E-unsplash.jpg);
+    background-size: 100% auto;
+    width: 100%;
+    height: 100vh;
+    background-repeat: none;
+    background-blend-mode: soft-light;
+}  
+
+/*===================
+header design navbar
+====================*/
+
+.opacitycolor{
+    background-color: rgba(0,0,0,0.1);
+    border: 0px solid red;
+    height: 100%;
+}
+
+.navbar{
+    padding: 1%;
+    border: px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0,0,0,0.5);
+}
+
+.navbar .logo{
+    border: px solid red;
+    cursor: pointer;
+}
+
+.navbar .logo img{
+    border: px solid green;
+    width: 50px;
+}
+
+.navlink{
+    border: px solid wheat;
+    margin-right: 2vw;
+}
+
+.navlink ul{
+    border: px solid green;
+    display: flex;
+    margin-bottom: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+
+.navlink ul li{
+    border: px solid red;
+    list-style: none;
+}
+
+.navlink ul li a{
+    border: px solid red;
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 7px;
+}
+
+.navlink ul li a:hover{
+    color: #ffd900;
+    text-decoration: underline;
+}
+
+.navlink ul li .active{
+    color: wheat;
+}
+
+.checkbtn{
+    color: #fff;
+    font-size: 25px;
+    float: right;
+    display: none;
+    cursor: pointer;
+}
+
+/*===================
+   Dhabba
+====================*/
+#dhabba{
+    font-size: 50px;
+    font-family: '-apple-system','Open Sans', 'Helvetica Neue', sans-serif;
+    color: turquoise;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 3px 3px 3px  tomato;
+    text-transform: uppercase;
+    text-align: center;
+}
+/*===================
+   Input Form
+====================*/
+.customer{
+    font-size: 50px;
+    font-family: '-apple-system','Open Sans', 'Helvetica Neue', sans-serif;
+    color: turquoise;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.input{
+    width: 300px;
+    height: 35px;
+    transition:  1s;
+    transition-timing-function: linear;
+}
+
+.input:hover{
+    width: 350px;
+}
+
+#buton{
+    color: #ff2f1d;
+    background-color: rgba(65, 123, 247, 0.5);
+    border: none;
+    border: 1px solid #db8b4a;
+    width: 200px;
+    height: 35px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+
+#buton:hover{
+    background-color: #52200a;
+    border: 1px solid #db8b4a;
+}
