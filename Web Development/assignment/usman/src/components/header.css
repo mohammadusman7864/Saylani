@@ -1,0 +1,411 @@
+
+#con1{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+#row1{
+    padding-top: 10px;
+}
+#click{
+    
+    color: #EE9617;
+}
+#con2img1{
+    
+    margin-left: 0px;
+background-image: url(../images/assets/img1.jpg);
+width: 1010px;
+height: 1050px;
+}
+#con2img2{
+ width: 1030px;
+height: 1050px;
+padding-left: 0px;
+    background-image: url(../images/assets/img2.png);
+}
+
+#con2child1{
+    padding-top: 50px;
+    color: white;
+    font-weight: 500;
+    }
+    #row2btn{
+    border: 2px solid rgb(221, 65, 65);
+    border-radius: 20px;
+        padding: 2px 15px 2px 15px;
+        color: white;
+        background-color: rgb(221, 65, 65);
+       
+    }
+    #con2child2{
+        color: white;
+        margin-top: 200px;
+    }
+    #row3h1{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #row3img{
+    width: 350px;
+    height: 350px;
+    border: 2px solid rgb(206, 71, 71);
+    padding: 15px 25px 25px 25px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 5px rgb(211, 211, 211);
+    }
+    #con2child3{
+    margin-top: -60px;
+    }
+    
+#row4btn1{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 2px 15px 2px 15px;
+    color: white;
+    background-color: #FA644C;
+    }
+     #row4btn2{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 2px 15px 2px 15px;
+    color: rgb(206, 71, 71);
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px rgb(56, 54, 54);
+               
+     }
+    #row4img{
+    width: 350px;
+    height: 220px;
+    border: 2px solid rgb(206, 71, 71);
+    padding: 15px 25px 25px 25px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 25px 3px  rgb(179, 179, 179) ;
+    
+    }
+    #row5img{
+        width: 200px;
+       margin-left: 170px;
+    }
+
+.row7img{
+    margin-left: 35px;
+    margin-top: 70px;
+    width: 100px;
+    height: 35px;
+}
+#row8{
+    margin-top: 200px;
+   border: 2px solid grey;
+}
+#row9{
+    margin-top: 10px;
+    margin-left: 5%;
+    text-align: center;
+}
+#btn-1{
+    margin-left: 335px;
+    margin-top: 50px;
+    border: 2px solid #F7723D;
+    background-color: #F7723D;
+color: white;
+border-radius: 5px 5px 0px 0px;
+}
+#btn-2{
+padding: 0px 5px 0px 5px;
+    border-radius: 5px 5px 0px 0px;  
+    border: 2px dotted grey; 
+}
+#row10-1{margin-right: 20px;
+    box-shadow: 3px 3px 20px 3px rgb(148, 144, 144);
+}
+#row10img-1{
+    margin-left: -15px;
+    width: 210px;
+    height: 170px;
+   
+}
+#row10h5-1{
+    color: #FE5858;
+    margin-top: 30px;
+    text-align: center;
+}
+#row10p-1{
+    color: grey;
+    margin-top: 25px;
+    text-align: center;
+}
+.row10btn-1{
+margin-left: 35px;
+border: 2px solid #F7723D;
+border-radius: 20px;
+padding: 2px 25px 2px 25px;
+color: white;
+background-color: #F7723D;
+box-shadow: 1px 1px 10px 1px rgb(148, 144, 144);
+margin-top: 80px;
+}
+#row10-2{
+    background-color: white;
+    background-image: url(../images/assets/img14.png);
+    box-shadow: 3px 3px 20px 3px rgb(148, 144, 144);
+}
+
+#row10h5-2{
+    margin-top: -400px;
+    margin-left: 40px ;
+    /* margin-top: 100px; */
+
+}
+#line1
+{
+border: 1px dotted #000;
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 180px;
+}
+.row10p-2{
+    margin-top: 50px;
+    color: grey;
+    margin-left: 40px ;
+}
+#row10btn3-2{
+    background-color: white;
+    color: grey;
+    border: 2px solid grey;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 40px;
+    padding: 4px 25px 4px 25px;
+}
+#row10img2{
+
+    border: 2px solid white;
+    margin-left: 500px;
+    margin-top: 180px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 1px 1px 10px 1px rgb(148, 144, 144);
+}
+#row11{
+    margin-top: 200px;
+}
+#row11p{
+    font-size: 35px;
+}
+#line2
+{
+border: 1px dotted #000;
+    margin-top: 40px;
+    margin-left: 0px;
+    width: 180px;
+}
+ .row11-12img-1{
+    border: 1px solid white;
+    box-shadow: 1px 1px 10px 1px rgb(148, 144, 144);
+    width: 180px;
+    height: 100px;
+}
+#row12p{
+    margin-left: 80px;
+}
+.row11-12img-2{
+    margin-left: 30px;
+    margin-top:-25px ;
+    box-shadow: 1px 1px 10px 1px rgb(148, 144, 144);
+    border: 1px solid white;
+    width: 180px;
+    height: 100px;
+} 
+
+
+#row13{
+    box-shadow: 1px 1px 10px 1px rgb(148, 144, 144);
+    margin-top: 150px;
+    border-radius: 10px;
+    
+}
+#row13empty{
+    border-radius: 10px 0px 0px 10px;
+    background-color: #EE9617;
+    height: 250px;
+}
+#row13p{
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+#line3{
+    border: 1px dotted #000;
+    margin-top: 40px;
+    margin-left: 5px;
+    width: 180px;
+    margin-bottom: 40px;
+}
+#row13btn{
+margin: 110px 0px 0px 60px;
+ border: 2px solid white;
+border-radius: 20px;
+padding: 2px 15px 2px 15px;
+color: #FA644C;
+background-color: white ;
+box-shadow: 1px 1px 10px 1px rgb(148, 144, 144);
+}
+#row13btn-out{
+    border-radius: 0px 10px 10px 0px;
+    background-color:#E44613;
+    border: 2px solid #E44613;
+    margin-left: 75px;
+    height: 250px;
+}
+
+#row14{
+    margin-top: 100px;
+    }
+    .line4{
+        border: 1px dotted #000;
+        margin-top: 60px;
+        margin-left: 5px;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    #row15{
+        margin-top: 100px;
+    }
+    #row15p{
+        margin-top: 150px;
+    }
+    #line5{
+        border: 1px dotted #000;
+        margin-top: 20px;
+        margin-left: 0px;
+        width: 200px;
+        margin-bottom: 40px;
+    }
+    #row15img{
+        width: 500px;
+        height: 400px;
+    }
+    #row16{
+        margin-top: 100px;
+    }
+    #row17{
+        margin-top: 100px
+    }
+    .row17btn{
+        margin-top:200px ;
+        border: 2px solid #fc855a;
+        border-radius: 20px;
+        background-color: #fc855a;
+        padding: 3px 13px 5px 10px;
+    }
+    .row17btn:hover{
+       background-color: blue;
+       color: white;
+    }
+    #row17card-1{
+        box-shadow: 1px 1px 10px 1px rgb(148, 144, 144);
+        height: 450px;
+        border: 1px dashed grey;
+    border-radius: 10px;
+        
+    }
+    #row17img1-1{
+        margin-left: -12px;
+        width: 209px;
+        height: 150px;
+    }
+    #row17img2-1{
+        width: 80px;
+        height: 80px;
+        margin-top: -70px;
+        margin-left: 50px;
+    }
+    #row17p1-1{
+        margin-top: 20px;
+        text-align: center;
+    }
+    #row17p2-1{
+        margin-top: 30px;
+        text-align: center;
+    }
+    #row17img3-1{
+        width: 90px;
+        margin-left: 45px;
+    }
+    /* card2 */
+    
+    
+    #row17card-2{
+        margin-top: -30px;
+        height: 500px;
+        box-shadow: 1px 1px 10px 1px rgb(148, 144, 144);
+        border: 1px dashed grey;
+    border-radius: 10px;
+    }
+    #row17img1-2{
+        border-radius: 10px;
+        margin-left: -12px;
+    height:200px;
+    width: 207px;
+    }
+    #row17img2-2{
+        width: 100px;
+        height: 100px;
+    
+        margin-top: -200px;
+        margin-left: 45px;
+    }
+    #row17p1-2{
+        margin-top: 0px;
+        text-align: center;
+    }
+    #row17p2-2{
+        margin-top: 30px;
+        text-align: center;
+        
+    }
+    #row17img3-2{
+        width: 90px;
+        margin-left: 45px;
+    }
+    #row18{
+        margin-top: 200px;
+    }
+    .row18img{
+        width: 40px;
+        height: 40px;
+        margin-top: 5px;
+        margin-left: 30px;
+    }
+    
+#con10{
+    
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/assets/img32.png);
+}
+#row19h5{
+    margin-top: 135px;
+    color: white;
+}
+#row19input{
+    color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-top: 135px;
+    padding: 5px 35px 5px 30px;
+background-color: #F67539;
+}
+#row19btn{
+    color: #FA644C;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: -30px;
+    padding: 5px 10px 5px 10px;
+}
