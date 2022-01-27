@@ -28,8 +28,21 @@
    color: cadetblue;
 }
 
-.nav-item{
+.navbar-nav{
   color: black !important;
+  margin-right: 2vw;
+  justify-content: right;
+}
+
+.nav-item{
+  margin-right: 2vw;
+  justify-content: right;
+  color: black !important;
+}
+
+.nav-link{
+  color: black;
+  justify-content:right !important;
 }
 
 .btn{

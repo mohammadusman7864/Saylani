@@ -11,7 +11,8 @@ function Navbar() {
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav justify-content-end">
+      
+      <ul className="navbar-nav">
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="#">Home</a>
         </li>
@@ -29,7 +30,7 @@ function Navbar() {
 
       </ul>
       <form className="d-flex">
-        <button className="btn btn-outline-success" type="submit">sign up</button>
+        <button className="btn btn-outline-success"  type="submit">sign up</button>
         <button className="btn btn-outline-success" type="submit">sign in</button>
       </form>
     </div>
