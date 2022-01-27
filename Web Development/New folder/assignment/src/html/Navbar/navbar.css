@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: 'Times New Roman', Times, serif; 
+}
+
+.navbar{
+    background-color: #fff !important;
+}
+
+.navbar-brand{
+    font-size: large;
+    color:  #0F2B4A;
+}
+
+.navbar a{
+  font-size: large;
+  text-transform: capitalize;
+}
+
+.menu_active{
+  font-weight: bold;
+  border-radius: 1px solid #565387;
+}
+
+.navbar a:hover{
+   color: cadetblue;
+}
+
+.nav-item{
+  color: black !important;
+}
+
+.btn{
+  color: blue;
+  margin: 3px;
+  border-radius: 6px !important;
+  width: 152px !important;
+  height: 45px !important;
+}
+
+.btn:hover{
+  background-color: blue !important;
+  color:white !important;
+}
