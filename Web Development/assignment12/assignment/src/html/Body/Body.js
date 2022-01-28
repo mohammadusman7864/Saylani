@@ -18,8 +18,8 @@ function Body() {
     return (
        <div className="container main">
            <div className="row">
-               <div className="col find">
-               <h1>What Can We Help You Find?</h1>
+               <div className="col">
+               <h1 className='find'>What Can We Help You Find?</h1>
                </div>
            </div>
 
