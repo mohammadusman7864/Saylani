@@ -12,7 +12,6 @@ import Header from "./html/Header/Header";
 import Body from "./html/Body/Body";
 import Bottom from "./html/Bottom/Bottom";
 import Footer from "./html/Footer/Footer";
-
 function App() {
   return (
     <div>
