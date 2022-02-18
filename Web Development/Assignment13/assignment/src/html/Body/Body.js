@@ -86,7 +86,7 @@ function Body() {
 
            
           <div className="row">
-          <div className="col">
+          <div className="col-lg-8 col-md-8 col-sm-12">
             <h1>Sub-heading</h1>
             <p className="blog">courn socis sit, beatae alias officia quam et inventore ullam temporibus, quo
             amet consectetur adipisicing elit. Eligendi, veniam. Ex, reprehenderit!  rerum beatae alias officia 

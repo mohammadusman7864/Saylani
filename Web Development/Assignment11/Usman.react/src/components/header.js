@@ -106,7 +106,7 @@ function Header() {
 
             {/*---- ---------section2--------------------- */}
             {/* container3 */}
-            <div class="container-fluid">
+            <div className="container-fluid">
                 {/* row6 */}
                 <div className="row">
                     <div className="col-1"></div>
@@ -123,9 +123,9 @@ function Header() {
                     <div className="col-md-2 col-sm-6"><img src={img11} alt="" className="row7img" /></div>
                 </div>
                 {/* row8 */}
-                <div class="row">
-                    <div class="col-5"></div>
-                    <div class="col-2">
+                <div className="row">
+                    <div className="col-5"></div>
+                    <div className="col-2">
                         <hr id="row8" />
                     </div>
                 </div>
@@ -180,7 +180,7 @@ function Header() {
 
             {/* -----------------section4------------------------- */}
             {/* container5 */}
-            <div class="container-fluid">
+            <div className="container-fluid">
                 {/* row11 */}
                 <div className="row" id="row11">
                     <div className="col-1"></div>
@@ -223,7 +223,7 @@ function Header() {
             </div>
             {/* -----------section6--------------------- */}
             {/* container7 */}
-            <div class="container-fluid">
+            <div className="container-fluid">
                 {/* row14 */}
                 <div className="row" id="row14">
                     <div className="col-2"><img src={img12} alt="" width="200px" /></div>
@@ -252,22 +252,22 @@ function Header() {
 
             {/* ------------------section7------------------------ */}
             {/* container8 */}
-            <div class="container-fluid">
+            <div className="container-fluid">
                 {/* row16 */}
-                <div class="row" id="row16">
-                    <div class="col-5"> </div>
-                    <div class="col-3">
-                        <hr class="line4" />
+                <div className="row" id="row16">
+                    <div className="col-5"> </div>
+                    <div className="col-3">
+                        <hr className="line4" />
                         <h5>Customers <span> Testimonial </span></h5>
                     </div>
                 </div>
                 {/* row17 */}
-                <div class="row" id="row17">
-                    <div class="col-1"></div>
-                    <div class="col-1"><button class="row17btn">
+                <div className="row" id="row17">
+                    <div className="col-1"></div>
+                    <div className="col-1"><button className="row17btn">
                         Back </button>
                     </div>
-                    <div class="col-2" id="row17card-1">
+                    <div className="col-2" id="row17card-1">
                         <img src={img29} alt="" id="row17img1-1" />
                         <img src={img22} alt="" id="row17img2-1" />
                         <h6 id="row17p1-1">Name One</h6>
@@ -275,9 +275,9 @@ function Header() {
                         <p id="row17p2-1">Lorem ipsum dolor sit amet consectetur </p>
                     </div>
 
-                    <div class="col-1"></div>
+                    <div className="col-1"></div>
 
-                    <div class="col-2" id="row17card-2">
+                    <div className="col-2" id="row17card-2">
                         <img src={img20} alt="" id="row17img1-2" />
                         <img src={img23} alt="" id="row17img2-2" />
                         <h6 id="row17p1-2">Name Two</h6>
@@ -285,9 +285,9 @@ function Header() {
                         <p id="row17p2-2">Lorem ipsum dolor sit amet consectetur dolor sit amet </p>
                     </div>
 
-                    <div class="col-1"></div>
+                    <div className="col-1"></div>
 
-                    <div class="col-2" id="row17card-1">
+                    <div className="col-2" id="row17card-1">
                         <img src={img29} alt="" id="row17img1-1" />
                         <img src={img24} alt="" id="row17img2-1" />
                         <h6 id="row17p1-1">Name Three</h6>
@@ -296,7 +296,7 @@ function Header() {
                         </p>
                     </div>
 
-                    <div class="col-1"><button class="row17btn">
+                    <div className="col-1"><button className="row17btn">
                         next </button>
                     </div>
                 </div>
@@ -305,28 +305,28 @@ function Header() {
 
 
             {/* container9 */}
-            <div class="container">
+            <div className="container">
                 {/* row18 */}
-                <div class="row" id="row18">
-                    <div class="col-1"><img src={img25} alt="" class="row18img" /></div>
-                    <div class="col-2">
+                <div className="row" id="row18">
+                    <div className="col-1"><img src={img25} alt="" className="row18img" /></div>
+                    <div className="col-2">
                         Facebook Rating <img src={img30} alt="" width="90px" />
                     </div>
 
-                    <div class="col-1"><img src={img26} alt="" class="row18img" /></div>
-                    <div class="col-2">
+                    <div className="col-1"><img src={img26} alt="" className="row18img" /></div>
+                    <div className="col-2">
                         CPA Journal Rating <img src={img30} alt="" width="90px" />
                     </div>
 
 
-                    <div class="col-1"><img src={img31} alt="" class="row18img" /></div>
-                    <div class="col-2">
+                    <div className="col-1"><img src={img31} alt="" className="row18img" /></div>
+                    <div className="col-2">
                         Searchen Rating <img src={img30} alt="" width="90px" />
                     </div>
 
 
-                    <div class="col-1"><img src={img28} alt="" class="row18img" /></div>
-                    <div class="col-2">
+                    <div className="col-1"><img src={img28} alt="" className="row18img" /></div>
+                    <div className="col-2">
                         Group2 Rating <img src={img30} alt="" width="90px" />
                     </div>
 
