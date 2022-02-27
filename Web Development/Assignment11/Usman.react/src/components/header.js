@@ -1,10 +1,7 @@
 
 import '../components/header.css'
-import img1 from "../images/assets/img1.jpg"
-import img2 from '../images/assets/img2.png'
 import img3 from '../images/assets/img3.jpg'
 import img4 from '../images/assets/img4.jpg'
-import img5 from '../images/assets/img5.jpg'
 import img6 from '../images/assets/img6.png'
 import img7 from '../images/assets/img7.png'
 import img8 from '../images/assets/img8.png'
@@ -13,7 +10,6 @@ import img10 from '../images/assets/img10.png'
 import img11 from '../images/assets/img11.png'
 import img12 from '../images/assets/img12.png'
 import img13 from '../images/assets/img13.png'
-import img14 from '../images/assets/img14.png'
 import img15 from '../images/assets/img15.png'
 import img16 from '../images/assets/img16.png'
 import img17 from '../images/assets/img17.png'
@@ -30,7 +26,7 @@ import img28 from '../images/assets/img28.png'
 import img29 from '../images/assets/img29.png'
 import img30 from '../images/assets/img30.png'
 import img31 from '../images/assets/img31.png'
-import img32 from '../images/assets/img32.png'
+
 function Header() {
     return (
         <div>
@@ -38,13 +34,10 @@ function Header() {
             {/* row1 */}
             <div className="container-fluid" id="con1">
                 <div className="row" id="row1">
-                    <div className="col-1"></div>
                     <div className="col-md-4 col-sm-12">
                         <p>ACE Just rolled out partner programs. <span id="click">Click Now </span> </p>
                     </div>
-                    <div className="col-1"></div>
                     <div className="col-md-3 col-sm-12">Any Question?Call Now +923087019223</div>
-                    <div className="col-1"></div>
                     <div className="col-md-2 col-sm-12">Contact Support</div>
                 </div>
             </div>

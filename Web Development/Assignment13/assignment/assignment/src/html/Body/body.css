@@ -1,0 +1,32 @@
+
+
+.firehose{
+    text-align: left;
+    font-style: italic; 
+    font-weight: bolder;
+}
+
+.card{
+   background-color:gainsboro;
+}
+
+.sample{
+    text-align: left;
+    font-weight: bold;
+}
+
+.blog{
+    font-weight: 580;
+}
+
+.archives{
+    text-align: left;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.month{
+    color: blue;
+    font-size: 18px;
+}
