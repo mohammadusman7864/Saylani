@@ -1,11 +1,16 @@
 
 import React from 'react'
+import Create from './component/Create/Create'
 import Navbar from './component/Navbar/Navbar'
 
-export default function App() {
+
+function App() {
   return (
     <div>
       <Navbar/>
-    </div>
+     <Create/>
+      </div>
   )
 }
+
+export default App
