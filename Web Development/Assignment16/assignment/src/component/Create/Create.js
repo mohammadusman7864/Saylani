@@ -34,7 +34,7 @@ export default function Create() {
     <div>
       <h1>To Do List</h1>
       <br />
-      <input type="text" placeholder='to do' size={100} 
+      <input type="text" placeholder='to do' size={50} 
         value={name}
         onChange={itemEvent} />
       <button onClick={listOfItemt}>+</button>
