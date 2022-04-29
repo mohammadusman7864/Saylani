@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import { useDispatch } from 'react-redux'
-import { addToDo } from '../../action/ToDoAction'
+import { addToDo } from '../../store/action/ToDoAction'
 import cuid from 'cuid'
 
 

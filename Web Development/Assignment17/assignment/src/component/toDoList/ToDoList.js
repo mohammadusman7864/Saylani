@@ -6,7 +6,7 @@ const ToDoList = () => {
     const taskObj = useSelector((state) => state.ToDoReducer.data);
     const taskItems = taskObj.map((task) => {
         return (
-            <ToDoItem task={task.task} key={task.id} />
+            <ToDoItem task={task} key={task.id} />
         )
     }
     )
