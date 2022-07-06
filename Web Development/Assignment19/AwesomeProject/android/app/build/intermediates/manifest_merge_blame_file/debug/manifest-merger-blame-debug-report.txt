@@ -15,8 +15,8 @@
 12-->D:\Saylani\Web Development\New folder\AwesomeProject\android\app\src\main\AndroidManifest.xml:4:5-67
 12-->D:\Saylani\Web Development\New folder\AwesomeProject\android\app\src\main\AndroidManifest.xml:4:22-64
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\moham.DESKTOP-G755LBL.000\.gradle\caches\transforms-3\85fdd9af1f70f27ec9080a3596d5a5c1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
-13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\moham.DESKTOP-G755LBL.000\.gradle\caches\transforms-3\85fdd9af1f70f27ec9080a3596d5a5c1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\moham.DESKTOP-G755LBL.000\.gradle\caches\transforms-3\0fc98b11c4641f005f09c95af9e0c4a7\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\moham.DESKTOP-G755LBL.000\.gradle\caches\transforms-3\0fc98b11c4641f005f09c95af9e0c4a7\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
 14
 15    <application
 15-->D:\Saylani\Web Development\New folder\AwesomeProject\android\app\src\main\AndroidManifest.xml:6:5-25:19
@@ -25,7 +25,7 @@
 17        android:allowBackup="false"
 17-->D:\Saylani\Web Development\New folder\AwesomeProject\android\app\src\main\AndroidManifest.xml:11:7-34
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.5.0] C:\Users\moham.DESKTOP-G755LBL.000\.gradle\caches\transforms-3\92f097da2c13c17a6cb693c16e868191\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+18-->[androidx.core:core:1.7.0] C:\Users\moham.DESKTOP-G755LBL.000\.gradle\caches\transforms-3\efc5fbdc5cddabff1e6dbe6ad771c56d\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 19        android:debuggable="true"
 20        android:icon="@mipmap/ic_launcher"
 20-->D:\Saylani\Web Development\New folder\AwesomeProject\android\app\src\main\AndroidManifest.xml:9:7-41
@@ -68,6 +68,28 @@
 38-->D:\Saylani\Web Development\New folder\AwesomeProject\android\app\src\main\AndroidManifest.xml:22:23-70
 39            </intent-filter>
 40        </activity>
-41    </application>
-42
-43</manifest>
+41
+42        <provider
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\moham.DESKTOP-G755LBL.000\.gradle\caches\transforms-3\a491fe997c62915d8b5e27cb1c7ee888\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+43            android:name="androidx.startup.InitializationProvider"
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\moham.DESKTOP-G755LBL.000\.gradle\caches\transforms-3\a491fe997c62915d8b5e27cb1c7ee888\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+44            android:authorities="com.awesomeproject.androidx-startup"
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\moham.DESKTOP-G755LBL.000\.gradle\caches\transforms-3\a491fe997c62915d8b5e27cb1c7ee888\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+45            android:exported="false" >
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\moham.DESKTOP-G755LBL.000\.gradle\caches\transforms-3\a491fe997c62915d8b5e27cb1c7ee888\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+46            <meta-data
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\moham.DESKTOP-G755LBL.000\.gradle\caches\transforms-3\a491fe997c62915d8b5e27cb1c7ee888\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\moham.DESKTOP-G755LBL.000\.gradle\caches\transforms-3\a491fe997c62915d8b5e27cb1c7ee888\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+48                android:value="androidx.startup" />
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\moham.DESKTOP-G755LBL.000\.gradle\caches\transforms-3\a491fe997c62915d8b5e27cb1c7ee888\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+49            <meta-data
+49-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\moham.DESKTOP-G755LBL.000\.gradle\caches\transforms-3\b4f96b26a07681f60e49336d55d7ad7c\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+50                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\moham.DESKTOP-G755LBL.000\.gradle\caches\transforms-3\b4f96b26a07681f60e49336d55d7ad7c\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+51                android:value="androidx.startup" />
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\moham.DESKTOP-G755LBL.000\.gradle\caches\transforms-3\b4f96b26a07681f60e49336d55d7ad7c\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+52        </provider>
+53    </application>
+54
+55</manifest>

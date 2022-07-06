@@ -1,23 +1,55 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import TodoApp from './src/TodoApp'
-import store from './src/store'
-import { Provider } from 'react-redux'
-export default class App extends React.Component {
-  render() {
-    return (
-      <Provider store={store}>
-        <TodoApp />
-      </Provider>
-    );
-  }
-}
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
+
+import React from 'react';
+import { Text, View, TextInput, Button } from 'react-native';
+import Login from './src/login/Login';
+
+
+
+import NavBar from './src/navigation/NavBar';
+import SignUp from './src/signUp/SignUp';
+
+
+
+
+function App() {
+  // const [email, setEmail] = useState('')
+  // const [password, setPassword] = useState('');
+
+  // const userSign = async () => {
+  //   if (!email || !password) {
+  //     alert('please enter filled')
+  //   }
+  //   else {
+  //     try {
+  //       let userResponse = await auth().createUserWithEmailAndPassword(
+  //         email,
+  //         password,
+  //       );
+
+
+  //       console.log('userResponse', userResponse.user);
+  //       alert("SIGNUP DONE ")
+
+
+  //     } catch (error) {
+  //       alert("already exist email")
+  //       console.log('error', error);
+  //     }
+  //   }
+  // }
+
+
+
+
+
+
+
+  return (
+
+    <NavBar />
+
+  );
+}
+export default App;
