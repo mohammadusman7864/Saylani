@@ -134,6 +134,3 @@ function days() {
     result.innerHTML = b
     
 }
-
-
-
